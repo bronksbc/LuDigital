@@ -1,0 +1,21 @@
+package cursodio.calc;
+import java.util.Scanner;
+
+public class coxinha {
+public static void main(String[] args) {
+	Scanner scan = new Scanner(System.in);
+    double H ;
+    double P ;
+    System.out.println("Digite o primeiro valor: ");
+    H = scan.nextFloat();
+    System.out.println("Digite o segundo valor: ");
+    P = scan.nextFloat();
+		//TODO: Complete os espaços em branco com uma possível solução para o desafio
+	double media = H / P;
+
+		    System.out.printf("%.2f", media );
+		 
+		}
+}
+
+

@@ -1,0 +1,32 @@
+package orientacaoObjeto;
+
+public class livro {
+
+	public static void main(String[] args) {
+
+	}
+
+	class carro {
+
+		String cor;
+		String modelo;
+		Integer capacidadeTanque = 50;
+
+		void frear() {
+
+		}
+		
+		public Double encherTanque (Double precoGas, int capacidadeTanque ){
+			double estadoDoTanque = 0 ;
+			double gasolinaNecessaria = capacidadeTanque - estadoDoTanque;
+			double PrecoGas = 5.0;
+			double total = precoGas * gasolinaNecessaria; 
+			
+			return total;
+		}
+
+		public carro() {
+
+		}
+	}
+}

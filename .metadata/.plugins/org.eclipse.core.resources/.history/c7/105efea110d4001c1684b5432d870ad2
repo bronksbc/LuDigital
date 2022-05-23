@@ -1,0 +1,23 @@
+package cursodio.calc;
+import java.util.Scanner;
+
+public class coxinha {
+
+	public static void main(String[] args) {
+		// Abaixo segue um exemplo de código que você pode ou não utilizar
+
+		
+		    Scanner scan = new Scanner(System.in);
+		    String input = scan.nextLine();
+		    double h = 10;
+		    double p = 90;
+		    String[] inputSplit = input.split(" ");
+		//TODO: Complete os espaços em branco com uma possível solução para o desafio
+		    double media = Double.parseDouble (h)/Double.parseDouble(p );
+
+		    System.out.printf("%.2f", media      );
+		 
+		}
+}
+
+

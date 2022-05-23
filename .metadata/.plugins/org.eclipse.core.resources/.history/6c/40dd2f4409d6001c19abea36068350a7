@@ -1,0 +1,15 @@
+package exerciciosRepetição;
+
+public class teste {
+
+	public static void main(String[] args) {
+		int num = 5;
+		int num1 = 2;
+		
+		num += num1;
+		num = num + num1;
+				
+
+	}
+
+}

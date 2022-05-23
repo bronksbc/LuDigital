@@ -1,0 +1,27 @@
+package bancoDigital;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Cliente cliente = new Cliente();
+		cliente.setNome("Luis");
+		cliente.setCpf("47272810820");
+		
+		Banco bank = new Banco();
+		bank.setNome("LuDigital");
+	
+		ContaCorrente cc = new ContaCorrente();
+		cc.setCliente(cliente);
+		cc.setAgencia(1010);
+		cc.setNumero(454508);
+		cc.setSaldo(10000);
+		
+		cc.sacar(100);
+		System.out.println("Saldo após o saque: " + cc.getSaldo());
+		
+		cc.depositar(2000);
+		System.out.println("Saldo após o depósito: " + cc.getSaldo());
+	}
+
+}

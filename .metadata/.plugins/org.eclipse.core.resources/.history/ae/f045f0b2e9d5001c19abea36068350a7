@@ -1,0 +1,9 @@
+package exerciciosRepetição;
+import java.util.Scanner;
+public class fatorial {
+	Scanner scan = new Scanner(System.in);
+	
+	System.out.println("buceta");
+	
+	int fatorial = scan.nextInt();
+}

@@ -1,0 +1,19 @@
+package exerciciosRepetição;
+import java.util.Scanner;
+public class parImpar {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner (System.in);
+		int quantidadeNum;
+		int count = 0, int numero = 0;
+		System.out.println("Digite a quantidade de numeros: ");
+		quantidadeNum = scan.nextInt();
+		
+		do {
+			System.out.println("Digite um numero: ");
+			numero = scan.nextInt();
+		} while (count < quantidadeNum);
+		
+	}
+
+}

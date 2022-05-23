@@ -1,0 +1,24 @@
+package bancoDigital;
+
+import java.util.List;
+
+public class Banco {
+
+	String Nome;
+	List<conta> contas;
+	
+	public String getNome() {
+		return Nome;
+	}
+	public void setNome(String nome) {
+		Nome = nome;
+	}
+	public List<conta> getContas() {
+		return contas;
+	}
+	public void setContas(List<conta> contas) {
+		this.contas = contas;
+	}
+	
+	
+}

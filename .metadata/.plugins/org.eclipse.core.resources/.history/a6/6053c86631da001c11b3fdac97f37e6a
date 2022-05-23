@@ -1,0 +1,30 @@
+package bancoDigital;
+
+public class ContaCorrente extends ContaID {
+
+	
+	@Override
+	public void sacar(double valor) {
+		saldo -= valor;
+		
+	}
+
+	@Override
+	public void depositar(double valor) {
+		saldo += valor;
+	}
+
+	
+
+	@Override
+	public void imprimirExtrato() {
+			
+	}
+
+	@Override
+	public void transferir(double valor, int Conta, int contaDestino) {
+		Conta -= valor;
+		
+	}
+
+}

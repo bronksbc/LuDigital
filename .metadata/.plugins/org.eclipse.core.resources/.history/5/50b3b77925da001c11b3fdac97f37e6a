@@ -1,0 +1,16 @@
+package bancoDigital;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Cliente cliente = new Cliente();
+		cliente.setNome("Luis");
+		cliente.setConta("45781");
+		cliente.setAgencia(0001);
+		System.out.println(cliente.getNome());
+		System.out.println(cliente.getConta());
+		System.out.println(cliente.getAgencia());
+		
+	}
+
+}

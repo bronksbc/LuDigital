@@ -1,0 +1,22 @@
+package exercicioList;
+import java.util.List;
+import java.util.*;
+public class principal {
+
+	public static void main(String[] args) {
+		List<Double> notas = new  ArrayList <> (); 
+		notas.add(7.0);
+		notas.add(8.0);
+		notas.add(9.0);
+		notas.add(6.0);
+		notas.add(5.0);
+		notas.add(3.0);
+		notas.add(4.0);
+		System.out.println("notas: " + notas.toString());
+		
+		/* exiba a nota na posição 5 */
+		
+		System.out.println(notas.indexOf(5d));
+	}
+
+}

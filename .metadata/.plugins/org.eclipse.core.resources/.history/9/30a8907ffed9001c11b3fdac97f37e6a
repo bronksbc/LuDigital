@@ -1,0 +1,17 @@
+package orientacaoObjeto;
+
+public class rodarAplicacao {
+
+	public static void main(String[] args) {
+
+		carro car = new carro();
+
+		car.setCor("azul");
+		car.setModelo("ferrari");
+		car.setCapacidadeTanque(20);
+
+		System.out.println("cor: " + car.getCor() 
+		+ " Modelo: " + car.getModelo() + " Capaciadeade do Tanque: " + car.getCapacidadeTanque());
+	}
+
+}

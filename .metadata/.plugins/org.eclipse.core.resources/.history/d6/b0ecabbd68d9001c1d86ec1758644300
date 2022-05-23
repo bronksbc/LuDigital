@@ -1,0 +1,31 @@
+package tratamentoDeErros;
+
+import javax.swing.*;
+
+public class uncheckedException {
+
+	public static void main(String[] args) {
+		String a = JOptionPane.showInputDialog("Numerador: ");
+		String b = JOptionPane.showInputDialog("Denominador : ");
+		boolean validador = false;
+		do {
+			try {
+				int resultado = dividir(Integer.parseInt(a), Integer.parseInt(b));
+				System.out.println("Resultado: " + resultado);
+			} catch (NumberFormatException e) {
+				validador = true;
+				JOptionPane.showMessageDialog(null, "Valor inválido");
+			} catch (ArithmeticException e) {
+				JOptionPane.showMessageDialog(null, "Impossivel divir por zero: ");
+			}
+			
+		} while (validador == false           );
+		
+
+	}
+
+	private static int dividir(int a, int b) {
+		return a / b;
+	}
+
+}

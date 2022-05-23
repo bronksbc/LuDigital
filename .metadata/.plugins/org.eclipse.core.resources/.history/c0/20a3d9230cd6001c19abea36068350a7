@@ -1,0 +1,16 @@
+package cursodio.calc;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String input = scan.nextLine();
+		int H, P;
+		
+		H = sc.nextInt();
+		P = sc.nextInt();
+
+  String [] inputSplit = input.split(, );
+     double media = Double.parseDouble  /Double.parseDouble ;
+
+	    System.out.printf("%.2f", media );

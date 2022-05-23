@@ -1,0 +1,9 @@
+package bancoDigital;
+
+public abstract class ContaCorrente implements conta {
+
+	public ContaCorrente() {
+
+	}
+	
+}

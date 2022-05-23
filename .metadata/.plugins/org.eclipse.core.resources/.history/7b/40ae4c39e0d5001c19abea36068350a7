@@ -1,0 +1,10 @@
+package exerciciosRepetição;
+
+public class nota {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

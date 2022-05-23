@@ -1,0 +1,37 @@
+package bancoDigital;
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		Cliente cliente = new Cliente();
+		JOptionPane.showInputDialog("Digite o nome do cliente: " , cliente.getNome());
+		// cliente.setNome("Luis");
+		cliente.setCpf("47272810820");
+		
+		Banco bank = new Banco();
+		bank.setNome("LuDigital");
+		System.out.println("Bem Vindo ao " + bank.getNome());
+	
+		ContaCorrente cc = new ContaCorrente();
+		cc.setCliente(cliente);
+		cc.setAgencia(1010);
+		cc.setNumero(454508);
+		cc.setSaldo(10000);
+		
+		cc.sacar(100);
+		System.out.println("Saldo após o saque: " + cc.getSaldo());
+		
+		cc.depositar(2000);
+		System.out.println("Saldo após o depósito: " + cc.getSaldo());
+		
+		
+		cc.transferir(11900);
+		System.out.println("Saldo após o depósito a transferencia: " + cc.getSaldo());
+		
+		
+	}
+
+}

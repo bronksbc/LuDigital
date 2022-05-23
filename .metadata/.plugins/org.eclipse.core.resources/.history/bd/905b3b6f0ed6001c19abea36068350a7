@@ -1,0 +1,14 @@
+package cursodio.calc;
+
+
+
+public class main {
+		public static void main(String[] args) {
+			int H = 0;
+			int P = 0;
+
+			double media = (H/P);
+		}
+	}
+
+
